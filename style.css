@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+}
+body{
+background-color: rgb(6, 80, 218);
+color: rgb(255, 255, 255);
+[title]::after{
+    font-weight: 70px;
+}
+h1{
+    font-size: 50px;
+}
+h2 {
+    font-size: 25px;
+}
+p{font-size: 14px;}
+font-family:  Roboto, Playfair, Sans-Serif, Georgia;
+margin: 20px;
+padding: 10px;
+img{ padding: 5px; width: 100%; height: auto;}
+img{border-radius: 15%;}
+button{
+    background-color: rgb(235, 16, 16);
+    color: white;
+    font-size: 18px;
+    height: 45px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+
+}
+
+}
