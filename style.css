@@ -5,10 +5,10 @@ body{
 background-color: rgb(6, 80, 218);
 color: rgb(255, 255, 255);
 [title]::after{
-    font-weight: 70px;
+    font-weight: 50px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2 {
     font-size: 25px;
