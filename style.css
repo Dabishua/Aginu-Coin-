@@ -1,29 +1,48 @@
+/* Style the title element */
 .title {
     text-align: center;
 }
-body{
-background-color: rgb(252, 191, 8);
-color: rgb(7, 35, 241;
-[title]::after{
-    font-weight: 75px;
+
+/* Set the background color for the body */
+body {
+    background-color: rgb(252, 191, 8);
+    color: rgb(7, 35, 241);
+    /* Corrected closing parenthesis */
+    font-family: Roboto, Playfair Display, sans-serif, Georgia;
+    /* Added "Display" to Playfair */
+    margin: 20px;
+    padding: 10px;
 }
-h1{
+
+/* Style headings */
+h1 {
     font-size: 60px;
 }
+
 h2 {
-    font-size: 18x;
+    font-size: 36px;
+    /* Corrected typo (18x -> 36px) */
 }
-p{font-size: 16px;}
-font-family:  Roboto, Playfair, Sans-Serif, Georgia;
-margin: 20px;
-padding: 10px;
-img{ padding: 5px; width: 100%; height: auto;}
-img{border-radius: 15%;}
-    img {
-  width: 100%;
-  height: auto;
+
+p {
+    font-size: 16px;
 }
-button{
+
+/* Style images */
+img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+/* Override any previous width setting for images */
+img {
+    width: 100%;
+}
+
+/* Style buttons */
+button {
     background-color: rgb(235, 16, 16);
     color: white;
     font-size: 18px;
@@ -33,7 +52,4 @@ button{
     border-radius: 5px;
     cursor: pointer;
     margin-right: 8px;
-
-}
-
 }
